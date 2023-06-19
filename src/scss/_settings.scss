@@ -1,0 +1,131 @@
+/*Обнуление*/
+*{padding:0;margin:0;border:0;}
+*,*:before,*:after{-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;}
+:focus,:active{outline:none;}
+a:focus,a:active{outline:none;}
+nav,footer,header,aside{display:block;}
+html,body{height:100%;width:100%;font-size:100%;line-height:1;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display:none;}
+button{cursor:pointer;}
+button::-moz-focus-inner{padding:0;border:0;}
+a,a:visited{text-decoration:none;}
+a:hover{text-decoration:none;}
+ul li{list-style:none;}
+img{vertical-align:top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit;}
+
+
+body{
+    margin: 0;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+}
+
+.container{
+    margin: 0 auto;
+    padding: 0 20px;
+    max-width: 1268px;
+}
+
+
+.list-reset {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+.btn-reset {
+    border: none;
+    padding: 0;
+    background: transparent;
+    cursor: pointer;
+}
+
+//---------------Используются повторяющиеся объекты на всем сайте--------------------
+
+.main-title {
+    margin: 0;
+    margin-bottom: 25px;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 130%;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: var(--color-ebony);
+
+
+    span {
+        color: var(--color-primary);
+    }
+    
+
+    &--home {
+        color: var(--color-light);
+    }
+}
+
+.main-descr {
+    font-size: 20px;
+    line-height: 150%;
+    color: var(--color-storm);
+
+    &--home {
+        margin-bottom: 60px;
+        color: var(--color-light);
+    }
+
+} 
+
+
+
+.btn {
+    border-style: solid;
+    border-width: 1px;
+    border-color: transparent;
+    border-radius: 4px;
+    padding: 15px 39px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.5px;
+    color: var(--color-light);
+
+    &--fill {
+        background-color: var(--color-primary);
+    }
+
+
+    &--stroke {
+        &-light {
+            border-color: var(--color-light);
+        }
+    }
+    
+}
+
+
+.title {
+    margin-bottom: 25px;
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 130%;
+    color: var(--color-ebony);
+    
+    &--center {
+        text-align: center;
+    }
+}
+
+.descr {
+    margin-bottom: 60px;
+    font-size: 18px;
+    line-height: 150%;
+    color: var(--color-storm);
+    
+    &--center {
+        text-align: center;
+    }
+}

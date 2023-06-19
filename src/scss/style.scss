@@ -1,0 +1,8 @@
+//раскоментировать, если добавили шрифты в папку
+// @import "fonts";
+@import "settings";
+@import "mixins";
+@import "vars";
+
+//подключение компонентов страницы
+@import "./components/_header";
